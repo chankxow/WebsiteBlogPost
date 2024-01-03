@@ -18,7 +18,6 @@ if($id){
                 <?php 
                 while ($data = mysqli_fetch_array($result)) {
                 ?>
-
                 <div class="form-field mb-4">
                     <input type="text" class="form-control" name="title" id="" placeholder="Enter Title:" value="<?php echo $data['title']; ?>">
                 </div>
