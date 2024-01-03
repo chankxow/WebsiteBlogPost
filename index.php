@@ -14,7 +14,7 @@
         <h1><a href="index.php" class="text-light text-light text-decoration-none ">Chankxow BLOG</a></h1>
     </header>
     <div class="post-list mt-5">
-    <div class="container">
+    <div class="container shadow-lg ">
             <?php
                 include("connect.php");
                 $sqlSelect = "SELECT * FROM posts";

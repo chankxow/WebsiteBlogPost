@@ -19,13 +19,13 @@ if($id){
                 while ($data = mysqli_fetch_array($result)) {
                 ?>
                 <div class="form-field mb-4">
-                    <input type="text" class="form-control" name="title" id="" placeholder="Enter Title:" value="<?php echo $data['title']; ?>">
+                    <input type="text" class="form-control" name="title" id="" placeholder="หัวข้อ" value="<?php echo $data['title']; ?>">
                 </div>
                 <div class="form-field mb-4">
-                    <textarea name="summary"  class="form-control" id="" cols="30" rows="10" placeholder="Enter Summary:"><?php echo $data['summary']; ?></textarea>
+                    <textarea name="summary"  class="form-control" id="" cols="30" rows="2" placeholder="เกี่ยวกับ:"><?php echo $data['summary']; ?></textarea>
                 </div>
                 <div class="form-field mb-4">
-                    <textarea name="content" class="form-control" id="" cols="30" rows="10" placeholder="Enter Post:"><?php echo $data['content']; ?></textarea>
+                    <textarea name="content" class="form-control" id="" cols="30" rows="10" placeholder="เนื้อหา"><?php echo $data['content']; ?></textarea>
                 </div>
                 <input type="hidden" name="date" value="<?php echo date("Y/m/d"); ?>">
                 <input type="hidden" name="id" value="<?php echo $id; ?>">

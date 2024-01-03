@@ -7,7 +7,7 @@ include("templates/header.php");
                     <input type="text" class="form-control" name="title" id="" placeholder="หัวข้อ">
                 </div>
                 <div class="form-field mb-4">
-                    <textarea name="summary"  class="form-control" id="" cols="30" rows="10" placeholder="เกี่ยวกับ:"></textarea>
+                    <textarea name="summary"  class="form-control" id="" cols="30" rows="2" placeholder="เกี่ยวกับ:"></textarea>
                 </div>
                 <div class="form-field mb-4">
                     <textarea name="content" class="form-control" id="" cols="30" rows="10" placeholder="เนื้อหา:"></textarea>
@@ -15,7 +15,7 @@ include("templates/header.php");
                 <input type="hidden" name="date" value="<?php echo date("Y/m/d"); ?>">
 
                 <div class="form-field">
-                    <input type="submit" class="btn btn-primary" value="SUBMIT" name="create">
+                    <input type="submit" class="btn btn-primary" value="ตกลง" name="create">
                 </div>
             </form>
         </div>
