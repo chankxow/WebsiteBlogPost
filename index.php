@@ -25,14 +25,14 @@
                         <div class="col-sm-2">
                             <?php echo $data["date"]; ?>
                         </div>
-                        <div class="col-sm-3">
-                           <h2> <?php echo $data["title"]; ?></h2>
+                        <div class="col-sm-3 ">
+                           <h2 class="fs-3"> <?php echo $data["title"]; ?></h2>
                         </div>
                         <div class="col-sm-5">
                             <?php echo $data["content"]; ?>
                         </div>
                         <div class="col-sm-2">
-                            <a href="view.php?id=<?php echo $data['id']; ?>" class="btn btn-primary">READ MORE</a>
+                            <a href="view.php?id=<?php echo $data['id']; ?>" class="btn btn-primary">อ่านทั้งหมด</a>
                         </div>
                     </div>
                 <?php

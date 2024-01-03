@@ -30,7 +30,7 @@ if($id){
                 <input type="hidden" name="date" value="<?php echo date("Y/m/d"); ?>">
                 <input type="hidden" name="id" value="<?php echo $id; ?>">
                 <div class="form-field">
-                    <input type="submit" class="btn btn-primary" value="Submit" name="update">
+                    <input type="submit" class="btn btn-primary" value="ตกลง" name="update">
                 </div>
 
                 <?php

@@ -61,9 +61,9 @@ include("templates/header.php");
             <td><?php echo $data["title"]?></td>
             <td><?php echo $data["summary"]?></td>
             <td>
-                <a class="btn btn-info" href="view.php?id=<?php echo $data["id"]?>">View</a>
-                <a class="btn btn-warning"  href="edit.php?id=<?php echo $data["id"]?>">Edit</a>
-                <a class="btn btn-danger" href="delete.php?id=<?php echo $data["id"]?>">Delete</a>
+                <a class="btn btn-info" href="view.php?id=<?php echo $data["id"]?>">ดู</a>
+                <a class="btn btn-warning"  href="edit.php?id=<?php echo $data["id"]?>">แก้ไข</a>
+                <a class="btn btn-danger" href="delete.php?id=<?php echo $data["id"]?>">ลบ</a>
             </td>
             </tr>
             <?php
