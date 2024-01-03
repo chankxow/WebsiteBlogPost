@@ -2,7 +2,7 @@
 if (isset($_POST['login'])) {
    $username = $_POST['username'];
    $password = $_POST['password'];
-   if ($username == "admin" && $password == "pass") {
+   if ($username == "admin" && $password == "123") {
     session_start();
     $_SESSION["user"] = "admin";
     header("Location:index.php");
