@@ -11,7 +11,7 @@
 <body>
     <header class="p-4 bg-dark text-center">
 
-        <h1><a href="index.php" class="text-light text-light text-decoration-none ">Simple Blog</a></h1>
+        <h1><a href="index.php" class="text-light text-light text-decoration-none ">Chankxow BLOG</a></h1>
     </header>
     <div class="post-list mt-5">
     <div class="container">
@@ -43,12 +43,8 @@
     </div>
 
     <div class="footer bg-dark p-4 mt-4">
-        <a href="admin/index.php" class="text-light">Admin Panel</a>
+        <a href="admin/index.php" class="text-light text-decoration-none" >Admin Panel</a>
     </div>
-    <div class="footerbg-dark p-4 mt-4">
-        <a href="#" class="text-light">Admin panel</a>
-    </div>
-
 </body>
 
 </html>
