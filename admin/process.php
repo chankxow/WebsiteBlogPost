@@ -8,7 +8,7 @@ if (isset($_POST["create"])) {
     $sqlInsert = "INSERT INTO posts(date,title, summary, content) VALUES ('$date', '$title', '$summary','$content' )";
     if(mysqli_query($conn, $sqlInsert)){
         session_start();
-        $_SESSION["create"] = "Post added successfully";
+        $_SESSION["create"] = "ทำการเพิ่มโพสต์เสร็จสิ้น";
         header("Location:index.php");
     }else{
         die("Data is not inserted!");
@@ -27,7 +27,7 @@ if (isset($_POST["update"])) {
     $sqlUpdate = "UPDATE posts SET title = '$title', summary = '$summary', content = '$content', date = '$date' WHERE id = $id";
     if(mysqli_query($conn, $sqlUpdate)){
         session_start();
-        $_SESSION["update"] = "Post udpated successfully";
+        $_SESSION["update"] = "โพสต์ได้มีการอัพเดตเรียบร้อย";
         header("Location:index.php");
     }else{
         die("Data is not updated!");
